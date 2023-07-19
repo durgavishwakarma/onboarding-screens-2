@@ -1,20 +1,41 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+
+  <div >
+
+
+    <div class="mic-div">
+ 
+      <ion-icon class="mic-icon" name="mic-outline"></ion-icon>
+    </div >
+
+    <div class="row">
+
+      <div class="row-1"> 
+      <ion-row class="welcom">
+WELCOME TO 
+      </ion-row>
+      <ion-row class="music"> 
+       MUSICAPP
+      </ion-row>
+    </div>
+    </div>
+    <div class="div-button">
+      <ion-button (click)="login()"> login</ion-button>
+
+      <ion-button> Register</ion-button>
+    </div>
+ <div>
+  <div class="bottom-class">
+    or quick login  
+  <br>
+    with Touch ID
+ 
+  </div>
+ </div>
   </div>
 </ion-content>

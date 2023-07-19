@@ -1,0 +1,23 @@
+ion-header{
+    --background: purple;
+    // padding-left: 10px;
+}
+ion-icon{
+    color:white;
+    font-size:20px
+}
+ion-toolbar{
+    --background: purple;
+    /* padding: 10px; */
+    padding: 0px 10px;
+
+}
+.user{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 1.3;
+  }

@@ -24,3 +24,9 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+.sc-ion-input-md-h:not(.legacy-input) {
+    min-height: 25px;
+    text-align: start;
+    --padding-start: 10px;
+ 
+}

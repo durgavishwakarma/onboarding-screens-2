@@ -1,0 +1,82 @@
+.ioncard1{
+    border-radius: 10px;
+}.ion-col-images{
+    // border: 1px solid #E78831;
+background-color: purple;
+opacity: 1.2;
+    .image-div{
+        opacity: 0.5;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        padding: 0px;
+        border-radius: 8px;
+    }
+}
+.school-img{
+    // box-sizing: border-box;
+    width: 90%;
+    height: 125px;
+    // border: 1px solid rgba(255, 255, 255, 0.4);
+    // border-radius: 15px;
+    margin: 25px 0 0 0px;
+}
+.school-name{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+ion-icon{
+    display: flex;
+    margin: auto;
+    font-size: 20px;
+    color: green;
+}
+ion-row{
+    height: auto;
+}
+.add{
+margin: auto;
+}
+.school-address{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #131212;  
+}
+.ion-col{
+    display: flex;
+    padding: 0px;
+}
+.view-more-button{
+    --background: #E78831;
+    --border-radius: 10px;
+    font-size: 8px;
+    white-space: nowrap;
+    margin: auto;
+    width: 75%;
+    height: 25px;
+ 
+}
+.middle-col{
+display: flex;
+
+}
+.ion-col-images{
+    // border: 1px solid #E78831;
+    padding: 0px;
+    border-right: 1px solid  #E78831;
+    .image-div{
+   
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+        padding: 0px;
+        border-radius: 8px;
+    }
+}
